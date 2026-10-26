@@ -13,7 +13,7 @@ if(!isset($_SESSION['datos_usuario'])){
 
 }
 
-//verificar si se ha enviado el fromulario
+//verificar si se ha enviado el fromulario en el HTML
 
     if ($_SERVER["REQUEST_METHOD"] == "POST"){
         //verificar si los datos del fondo del formulario se han puesto
@@ -79,7 +79,7 @@ if(!isset($_SESSION['datos_usuario'])){
 
 
 
-    <h3>Formulario</h3>
+    <h3><strong>Formulario</strong</h3>
 
     <form action="<?PHP  echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
         Nombre: <input type="text" name="nombre" required><br><br>
