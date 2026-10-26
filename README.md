@@ -13,3 +13,6 @@ Aplicación PHP desplegada en contenedores usando Docker Compose.
    ```bash
    git clone https://github.com/usuario/miapp-docker.git
    cd miapp-docker
+
+2. Ejecutar mi proyecto
+   \\localhost:8080/
