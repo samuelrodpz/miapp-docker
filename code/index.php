@@ -79,7 +79,7 @@ if(!isset($_SESSION['datos_usuario'])){
 
 
 
-    <h3><strong>Formulario</strong</h3>
+    <h3><strong>Formulariooooooooo</strong</h3>
 
     <form action="<?PHP  echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
         Nombre: <input type="text" name="nombre" required><br><br>
